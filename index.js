@@ -13,3 +13,14 @@ function fuzzyMatch(drivers, string){
   });
   return beginMatch;
 }
+
+function matchName(drivers string){
+var nameMatch = drivers.filter(function (driver){
+  let nameDrive = driver.name;
+  return nameDriver === string;
+});
+return nameMatch;
+}
+
+  
+}
