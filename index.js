@@ -21,6 +21,3 @@ var nameMatch = drivers.filter(function (driver){
 });
 return nameMatch;
 }
-
-
-}
