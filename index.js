@@ -7,7 +7,7 @@ return filteredDrivers;
 }
 
 function fuzzyMatch(drivers, string){
-  var beginMatch = drivers.filter(function (driver)){
+  var beginMatch = drivers.filter(function (driver){
     let firstDriver = driver.substring(0, 2);
     return firstDriver === string;
   });
